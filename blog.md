@@ -1,11 +1,20 @@
-<<<<<<< HEAD
-Hello World
-=======
 ---
-layout: default 
+layout: page
+title: Blog
+permalink: /Blog
 ---
-
 <!--
+Some information about you!
+
+### More Information
+
+A place to include any other types of information that you'd like to include about yourself.
+
+### Contact me
+
+[cvghy116@gmail.com](mailto:cvghy116@gmail.com)
+-->
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
@@ -20,17 +29,3 @@ layout: default
     </article>
   {% endfor %}
 </div>
--->
-
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[cvghy116@gmail.com](mailto:cvghy116@gmail.com)
-
-
->>>>>>> 2d6ada7edfc075f0df0aa0d312cf28034d555179
